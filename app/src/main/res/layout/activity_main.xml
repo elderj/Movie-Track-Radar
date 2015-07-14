@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Main"
+    android:background="#0C5866"
+    android:id="@+id/dontmatter">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MovieTrackRadar"
+        android:textSize="25dip"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textColor="#E1B450"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="101dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/movieListButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:text="My Movies"
+            android:background="#A61E10"
+            android:textColor="#E1B450"
+            android:layout_marginRight="5dp" />
+
+        <Button
+            android:id="@+id/movieLookupButton"
+            android:layout_width="150dp"
+            android:text="Lookup"
+            android:layout_height="150dp"
+            android:background="#A61E10"
+            android:textColor="#E1B450"
+            android:layout_marginLeft="5dp" />
+    </TableRow>
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Test"
+    android:id="@+id/myTestButton"
+    android:background="#373121"
+    android:textColor="#FFBF00"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tableRow"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="New Movies"
+            android:background="#A61E10"
+            android:textColor="#E1B450"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:text="Settings"
+            android:layout_height="150dp"
+            android:background="#A61E10"
+            android:textColor="#E1B450"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp" />
+    </TableRow>
+
+</RelativeLayout>
